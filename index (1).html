@@ -121,7 +121,7 @@
 <!-- TONIGHT SCREEN -->
 <div id="screen-tonight" class="screen active">
   <div class="card">
-    <div class="section-label">The Sharma Circle</div>
+    <div class="section-label">The Family Circle</div>
     <div class="avatar-row">
       <div class="av-wrap">
         <div class="avatar" style="background:var(--teal-light);color:var(--teal-dark)">TS</div>
@@ -129,18 +129,18 @@
         <div class="av-name">You</div>
       </div>
       <div class="av-wrap">
-        <div class="avatar" style="background:var(--purple-light);color:var(--purple-dark)">RS</div>
+        <div class="avatar" style="background:var(--purple-light);color:var(--purple-dark)">MR</div>
         <div class="av-online"></div>
-        <div class="av-name">Riya</div>
+        <div class="av-name">Mr.R</div>
       </div>
       <div class="av-wrap">
-        <div class="avatar" style="background:var(--coral-light);color:var(--coral-dark)">KS</div>
+        <div class="avatar" style="background:var(--coral-light);color:var(--coral-dark)">MV</div>
         <div class="av-online"></div>
-        <div class="av-name">Kiran</div>
+        <div class="av-name">Mrs.V</div>
       </div>
       <div class="av-wrap">
-        <div class="avatar" style="background:var(--green-light);color:var(--green-dark)">AS</div>
-        <div class="av-name">Arjun</div>
+        <div class="avatar" style="background:var(--green-light);color:var(--green-dark)">ML</div>
+        <div class="av-name">Mr.L</div>
       </div>
     </div>
     <div class="ai-banner">
@@ -158,13 +158,13 @@
         <div class="sc-vote-badge" id="vb1">2 votes</div>
       </div>
       <div class="tag-row">
-        <span class="tag tag-teal">Riya's top pick</span>
-        <span class="tag tag-purple">Kiran loves Indian</span>
+        <span class="tag tag-teal">Mr.R's top pick</span>
+        <span class="tag tag-purple">Mrs.V loves Indian</span>
         <span class="tag tag-gray">Vegetarian options</span>
       </div>
       <div class="voter-row" id="vr1">
         <div class="voter-chip" style="background:var(--teal-light);color:var(--teal-dark)">TS</div>
-        <div class="voter-chip" style="background:var(--purple-light);color:var(--purple-dark)">RS</div>
+        <div class="voter-chip" style="background:var(--purple-light);color:var(--purple-dark)">MR</div>
         <span style="font-size:11px;color:var(--text2);">voted</span>
       </div>
     </div>
@@ -178,12 +178,12 @@
         <div class="sc-vote-badge" id="vb2">1 vote</div>
       </div>
       <div class="tag-row">
-        <span class="tag tag-teal">Arjun ordered 3×</span>
+        <span class="tag tag-teal">Mr.L ordered 3×</span>
         <span class="tag tag-gray">Budget-friendly</span>
         <span class="tag tag-gray">Large portions</span>
       </div>
       <div class="voter-row" id="vr2">
-        <div class="voter-chip" style="background:var(--green-light);color:var(--green-dark)">AS</div>
+        <div class="voter-chip" style="background:var(--green-light);color:var(--green-dark)">ML</div>
         <span style="font-size:11px;color:var(--text2);">voted</span>
       </div>
     </div>
@@ -213,15 +213,15 @@
 <!-- PREFERENCES SCREEN -->
 <div id="screen-prefs" class="screen">
   <div class="member-selector">
-    <button class="member-btn active" onclick="selectMember(this,'riya')">Riya</button>
-    <button class="member-btn" onclick="selectMember(this,'kiran')">Kiran</button>
-    <button class="member-btn" onclick="selectMember(this,'arjun')">Arjun</button>
+    <button class="member-btn active" onclick="selectMember(this,'riya')">Mr.R</button>
+    <button class="member-btn" onclick="selectMember(this,'kiran')">Mrs.V</button>
+    <button class="member-btn" onclick="selectMember(this,'arjun')">Mr.L</button>
     <button class="member-btn" onclick="selectMember(this,'add')">+ Add member</button>
   </div>
 
   <div id="prefs-riya">
     <div class="card">
-      <div class="card-title">Riya's preferences</div>
+      <div class="card-title">Mr.R's preferences</div>
       <div class="card-sub">Learned from 14 past orders</div>
       <div class="stat-row">
         <div class="stat-card"><div class="stat-label">Orders together</div><div class="stat-val">14</div></div>
@@ -254,7 +254,7 @@
 
   <div id="prefs-kiran" style="display:none">
     <div class="card">
-      <div class="card-title">Kiran's preferences</div>
+      <div class="card-title">Mrs.V's preferences</div>
       <div class="card-sub">Learned from 9 past orders</div>
       <div class="stat-row">
         <div class="stat-card"><div class="stat-label">Orders together</div><div class="stat-val">9</div></div>
@@ -280,7 +280,7 @@
 
   <div id="prefs-arjun" style="display:none">
     <div class="card">
-      <div class="card-title">Arjun's preferences</div>
+      <div class="card-title">Mr.L's preferences</div>
       <div class="card-sub">Learned from 11 past orders</div>
       <div class="stat-row">
         <div class="stat-card"><div class="stat-label">Orders together</div><div class="stat-val">11</div></div>
@@ -343,22 +343,22 @@
     </div>
     <div class="order-item">
       <div class="oi-left">
-        <div class="voter-chip" style="background:var(--purple-light);color:var(--purple-dark)">RS</div>
-        <div><div class="oi-name">Riya</div><div class="oi-dish">Paneer tikka masala</div></div>
+        <div class="voter-chip" style="background:var(--purple-light);color:var(--purple-dark)">MR</div>
+        <div><div class="oi-name">Mr.R</div><div class="oi-dish">Paneer tikka masala</div></div>
       </div>
       <div class="oi-price">$24</div>
     </div>
     <div class="order-item">
       <div class="oi-left">
-        <div class="voter-chip" style="background:var(--coral-light);color:var(--coral-dark)">KS</div>
-        <div><div class="oi-name">Kiran</div><div class="oi-dish">Lamb rogan josh</div></div>
+        <div class="voter-chip" style="background:var(--coral-light);color:var(--coral-dark)">MV</div>
+        <div><div class="oi-name">Mrs.V</div><div class="oi-dish">Lamb rogan josh</div></div>
       </div>
       <div class="oi-price">$27</div>
     </div>
     <div class="order-item">
       <div class="oi-left">
-        <div class="voter-chip" style="background:var(--green-light);color:var(--green-dark)">AS</div>
-        <div><div class="oi-name">Arjun</div><div class="oi-dish">Chicken biryani</div></div>
+        <div class="voter-chip" style="background:var(--green-light);color:var(--green-dark)">ML</div>
+        <div><div class="oi-name">Mr.L</div><div class="oi-dish">Chicken biryani</div></div>
       </div>
       <div class="oi-price">$23</div>
     </div>
